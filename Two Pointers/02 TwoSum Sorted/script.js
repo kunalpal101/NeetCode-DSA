@@ -1,8 +1,9 @@
-/**
- * @param {number[]} numbers
- * @param {number} target
- * @return {number[]}
- */
+//Two Sum (Sorted)
+//Two Pointer
+//Time Complexity: O(n)
+//Space Complexity: O(1)
+
+
 var twoSum = function(numbers, target) {
     let left = 0;
     let right = numbers.length - 1
